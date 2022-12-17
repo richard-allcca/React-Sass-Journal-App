@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: Gumela;
+  src: url("../../fonts/Gumela\ Regular.otf");
+}
+
+
+:root{
+  /* Fonts */
+  --font-gumela: Gumela;
+  --font-Poppins:'Poppins', sans-serif;
+
+  /* colors */
+  --color-primary: hsl(237, 48%, 57%);
+  --color-primary-dark: hsla(237, 48%, 37%);
+  --color-primary-light: hsla(237, 48%, 77%);
+  --dark-grey: hsl(0, 0%, 21%);
+  --light-grey: hsl(0, 0%, 85%);
+
+
+  // Breakpoint 
+  --breakpoint-mobile: 576px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 992px;
+  --breakpoint-large: 1200px;
+
+  // button google
+--white: #fff;
+--google-blue: #4285f4;
+--button-active-blue: #1669f2;
+
+
+}
+ 

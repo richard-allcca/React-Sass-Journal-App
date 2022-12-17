@@ -1,0 +1,25 @@
+
+// reset
+@use './scss/base/resets';
+
+// abstracts 
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+
+// base
+@use './scss/base/base';
+
+// routes
+@use './scss/routes/authRouter';
+
+// components
+@use '../src/scss/components/login';
+@use '../src/scss/components/button-google';
+@use './scss/components/journal';
+@use './scss/components/journal-content/sidebar';
+@use './scss/components/journal-content/nothing';
+@use './scss/components/notes';
+
+// utility
+@use './scss/components/buttons';
+@use './scss/components/links';

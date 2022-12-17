@@ -1,0 +1,60 @@
+.note__main-content{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* 
+  ** NotesAppBar
+ */
+
+.notes__appbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: var(--color-primary);
+}
+
+.notes__content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+
+}
+
+.note__title-input, .note__textarea{
+  border: none;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.note__title-input{
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.note__textarea{
+  border: none;
+  color: var(--dark-grey);
+  font-size: 1.25rem;
+  flex: 1 1 auto;
+  resize: none;
+  background-color: var(--light-grey);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.note__image{
+  overflow: hidden;
+  width: 15rem;
+  height: 12rem;
+  box-shadow: 5px 5px 10px var(--dark-grey);
+  margin: .5rem auto auto 0;
+}

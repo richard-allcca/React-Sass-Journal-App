@@ -8,7 +8,7 @@
 - [tutorial sass en react](https://www.youtube.com/watch?v=-nEOaWG0Jzk)
 - [tutorial mas explicado con @use @forward](https://www.youtube.com/watch?v=9tmfuGsu99o)
 - [tutorial file system sass (min-3)](https://www.youtube.com/watch?v=Upa_2O1BKSU)
-- [Tutorial para SCSS en react, utilizado aqui](https://www.youtube.com/watch?v=-nEOaWG0Jzk&list=PLm_p5bVniKC7gj-jcHvxj28MSNynFEW2c&index=5)
+- [Añadir sass a proyecto React](https://www.youtube.com/watch?v=-nEOaWG0Jzk&list=PLm_p5bVniKC7gj-jcHvxj28MSNynFEW2c&index=5)
 
 ## Dependencias
 

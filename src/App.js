@@ -8,11 +8,11 @@ import "./App.scss";
 
 
 const App = () => {
-   return (
-      <Provider store={store}>
-         <AppRouter />
-      </Provider>
-   );
+  return (
+    <Provider store={ store }>
+      <AppRouter />
+    </Provider>
+  );
 };
 
 export default App;
